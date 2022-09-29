@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Spacer,Box, Flex,ButtonGroup,Text, Image,Link, Select, HStack, Popover, PopoverTrigger, PopoverContent, PopoverArrow, PopoverHeader, PopoverCloseButton, Portal, Button,PopoverBody, List, ListItem } from '@chakra-ui/react'
+import { Container, Spacer,Box, Flex,ButtonGroup,Text, Image, Select, HStack, Popover, PopoverTrigger, PopoverContent, PopoverArrow, PopoverHeader, PopoverCloseButton, Portal, Button,PopoverBody, List, ListItem } from '@chakra-ui/react'
 import Allroute from "../components/allroute";
+import {Link} from 'react-router-dom'
 
 export const Navbar=()=>{
     return (
