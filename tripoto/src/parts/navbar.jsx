@@ -18,13 +18,35 @@ export const Navbar=()=>{
   </Box>
   <Spacer />
   <ButtonGroup gap='6'>
-  
+  <Menu>
+  <MenuButton bg='#00B5D8' as={Button} >
+    Actions
+  </MenuButton>
+  <MenuList bgColor='white' color='black'>
+    <MenuItem>Visit Singapore</MenuItem>
+    <MenuItem>Beaches</MenuItem>
+    <MenuItem>Mountains</MenuItem>
+    <MenuItem>Heritage</MenuItem>
+    <MenuItem>Upcoming Festivals</MenuItem>
+    <MenuItem>Honeymoon Packages</MenuItem>
+  </MenuList>
+</Menu>
 
-    <Text>Forum</Text>
-    <Text>Pakages</Text>
-    <Text>Publick Trip</Text>
-    <Link to='/login'>Log in</Link>
-    <Link to='/details'>details</Link>
+    <Text marginTop='8px'>Forum</Text>
+    <Text marginTop='8px'> Pakages</Text>
+    <Menu alignItems='center' marginTop='-10px'>
+  <MenuButton bg='#00B5D8' as={Button} >
+   <Text>Publish Trips</Text>
+  </MenuButton>
+  <MenuList bgColor='white' color='black'>
+    <MenuItem>Create New</MenuItem>
+    <MenuItem>Upload photos/Videos</MenuItem>
+    <MenuItem>Import Blog</MenuItem>
+  
+  </MenuList>
+</Menu>
+    <Link marginTop='8px' to='/login'>Log in</Link>
+    
 
   </ButtonGroup>
    </Flex>
