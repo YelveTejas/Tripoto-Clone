@@ -31,16 +31,16 @@ export const Login=()=>{
          
     })
   }
-  if(auth){
-    return (
-      <>
-      <h1>Welcome to Dashboard</h1>
-      <h1>token:{token}</h1>
-      <Link to='/'></Link>
-      </>
-    )
+  // if(auth){
+  //   return (
+  //     <>
+  //     <h1>Welcome to Dashboard</h1>
+  //     <h1>token:{token}</h1>
+  //     <Link to='/'></Link>
+  //     </>
+  //   )
     
-  }
+  //}
   
    return (
         <>
