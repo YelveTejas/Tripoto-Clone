@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Spacer,Box, Flex,ButtonGroup,Text, Image, Select, HStack, Popover, PopoverTrigger, PopoverContent, PopoverArrow, PopoverHeader, PopoverCloseButton, Portal, Button,PopoverBody, List, ListItem } from '@chakra-ui/react'
+import { Container, Spacer,Box, Flex,ButtonGroup,Text, Image, Select, HStack, Popover, PopoverTrigger, PopoverContent, PopoverArrow, PopoverHeader, PopoverCloseButton, Portal, Button,PopoverBody, List, ListItem, Menu, MenuButton, MenuList, MenuItem } from '@chakra-ui/react'
+
 import Allroute from "../components/allroute";
 import {Link} from 'react-router-dom'
 
@@ -17,33 +18,7 @@ export const Navbar=()=>{
   </Box>
   <Spacer />
   <ButtonGroup gap='6'>
-      <Box w='-moz-fit-content'>
-      {/* <Select variant='unstyled' width='100%' placeholder='Inspiration' color='black' borderBlockEndColor='none'>
-  <option value='option1'>View Singapore</option>
-  <option value='option2'>Beaches</option>
-  <option value='option3'>Mountains</option>
-  </Select> */}
-      <Popover>
-  <PopoverTrigger>
-    <Text>Inspiration</Text>
-  </PopoverTrigger>
-  <Portal>
-    <PopoverContent>
-      <PopoverBody>
-        <List>
-            <ListItem>Visit Singapore</ListItem>
-            <ListItem> Beaches</ListItem>
-            <ListItem>Moutains</ListItem>
-            <ListItem>Heritage</ListItem>
-            <ListItem>Road Trips </ListItem>
-            <ListItem>Luxury Travel</ListItem>
-        </List>
-      </PopoverBody>
-    
-    </PopoverContent>
-  </Portal>
-</Popover>
-      </Box>
+  
 
     <Text>Forum</Text>
     <Text>Pakages</Text>

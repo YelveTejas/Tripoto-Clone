@@ -1,23 +1,29 @@
-import { Avatar, Badge, Box, Button, Container, Flex, Grid, GridItem, Heading, HStack, Image, Stack, Text } from "@chakra-ui/react";
+import { Avatar, Badge, Box, Button, Container, Divider, Flex, Grid, GridItem, Heading, HStack, Image, Input, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
-
+import {Footer} from '../parts/Footer'
 
 
 
 const Home=()=>{
     return(
         <>
-         
-     <Image boxSize='100%' height='13cm' src='https://images.unsplash.com/photo-1613967193490-1d17b930c1a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' alt='loading'/>
-         <HStack maxW='90%' spacing='30px' margin='auto' marginTop='2cm' marginLeft='5cm'>
-          
-                <Image boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png'/>
-                <Image boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png'></Image>
-                <Image boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png'/>
-                <Image boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png'></Image>
-           
-            </HStack> 
+           <Box position='absolute' margin='auto' >
+               <h1 color="white" position='absolute'>Indias Largest Community of Travellers</h1>
+           <Input type='search'  position='absolute'  backgroundColor='white' width='13cm' marginTop='3cm'></Input>
+           </Box>
+     <Image boxSize='100%'   height='13cm'src='https://cdn1.tripoto.com/media/filter/nxxl/img/1339961/Image/1650524733_2c_1.jpg' alt='loading'/>
+         <Link to='/retreats'>
+         <HStack maxW='90%' spacing='30px'   margin='auto' marginTop='2cm' marginLeft='5cm'>
+        
+        <Image  boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png'/>
+           <Image boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png'></Image>
+           <Image boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png'/>
+           <Image boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png'></Image> 
+      
+       </HStack> 
+         </Link>
+        
             <Box width='80%' margin='auto'  marginTop='1cm'>
             <Text align='left' fontWeight='medium' fontSize='3xl'>In the SpotLight Partnership</Text>
             </Box>
@@ -112,7 +118,7 @@ const Home=()=>{
              <Box width='80%' margin='auto' marginTop='-4cm'>
                <Text align='left' fontWeight='medium' fontSize='3xl'>Travel and Learn with Tripoto's mindful Retreats </Text>
              </Box>
-             <HStack width='80%' margin='auto' spacing={8}>
+             <HStack width='80%' margin='auto' marginTop='1cm' spacing={8}>
              <Stack maxW='10cm'>
                <Image width='100%' src='https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1660316705_image_cover_1.jpg'/>
                <Text align='left' color='teal.500'>PACKAGE</Text>
@@ -168,6 +174,18 @@ const Home=()=>{
                
              </Stack>
              </HStack>
+
+             <Box width='80%' margin='auto' marginTop='1cm'>
+             <Text align='left' fontSize='3xl'> In the Spot Light Tripoto Creaters of the Month</Text>
+             </Box>
+             <HStack width='80%' margin='auto'>
+             <Image width='32%' src='https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1660286748_12.jpg'></Image>
+             <Image width='32%' src='https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1660290817_13.jpg'></Image>
+             <Image width='32%' src='https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1660290935_11.jpg'></Image>
+             </HStack>
+
+             < Divider marginTop='30px'/>
+          <Footer/>
             
         </>
         
