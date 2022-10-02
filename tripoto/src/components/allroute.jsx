@@ -5,6 +5,8 @@ import { Details } from './details'
 import Home from './Home'
 import { Login } from './login'
 import {Retreats} from './Retreats'
+import Booking from './Booking'
+import Pagenotf from './Pagenotf'
 
 
 
@@ -16,6 +18,8 @@ import {Retreats} from './Retreats'
             <Route path='/login' element={<Login/>}></Route>
             <Route path='/details' element={<Details/>}></Route>
             <Route path='/retreats' element={<Retreats/>}></Route>
+            <Route path='/booking/:id' element={<Booking/>}></Route>
+            <Route path="*" element={<Pagenotf/>}></Route>
         </Routes> 
        </> 
     ) 

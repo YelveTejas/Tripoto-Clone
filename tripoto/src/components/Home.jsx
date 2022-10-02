@@ -8,13 +8,10 @@ import {Footer} from '../parts/Footer'
 const Home=()=>{
     return(
         <>
-           <Box position='absolute' margin='auto' >
-               <h1 color="white" position='absolute'>Indias Largest Community of Travellers</h1>
-           <Input type='search'  position='absolute'  backgroundColor='white' width='13cm' marginTop='3cm'></Input>
-           </Box>
+          
      <Image boxSize='100%'   height='13cm'src='https://cdn1.tripoto.com/media/filter/nxxl/img/1339961/Image/1650524733_2c_1.jpg' alt='loading'/>
          <Link to='/retreats'>
-         <HStack maxW='90%' spacing='30px'   margin='auto' marginTop='2cm' marginLeft='5cm'>
+         <HStack maxW='90%' spacing='30px'   margin='auto' margintop='2cm' marginLeft='5cm'>
         
         <Image  boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192329_aa.png'/>
            <Image boxSize='20%' src='https://cdn1.tripoto.com/media/filter/tst/img/311219/Image/1657192307_cc.png'></Image>
@@ -24,7 +21,7 @@ const Home=()=>{
        </HStack> 
          </Link>
         
-            <Box width='80%' margin='auto'  marginTop='1cm'>
+            <Box width='80%' margin='auto'  margintop='1cm'>
             <Text align='left' fontWeight='medium' fontSize='3xl'>In the SpotLight Partnership</Text>
             </Box>
              <HStack  width='80%' margin='auto' marginTop='1cm' spacing={1}>
@@ -53,10 +50,10 @@ const Home=()=>{
 
           </Stack>
              </HStack>
-             <Box width='80%' margin='auto' marginTop='-3cm'>
+             <Box width='80%' margin='auto' margintop='-3cm'>
             <Text align='left' fontWeight='medium' fontSize='3xl'>Find the Best Places To Visit In India in October and November</Text>
             </Box>
-             <HStack  width='80%' margin='auto' marginTop='1cm' spacing={1}>
+             <HStack  width='80%' margin='auto' margintop='1cm' spacing={1}>
              <Stack width='320px' height='450px' spacing={0}>
                <Image  height='5cm'  width='7cm' borderRadius='2xl' src='https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1661507443_1633009115_243257387_1788683618007971_2371564452838209440_n_webp.jpg' alt='image'/>
             
@@ -83,12 +80,12 @@ const Home=()=>{
 
           </Stack>
              </HStack>
-          <Box width='80%' margin='auto' marginTop='-2cm'>
+          <Box width='80%' margin='auto' margintop='-2cm'>
           <Image width='100%'  src='https://cdn1.tripoto.com/media/filter/nxxl/img/1516992/Image/1664274138_2_3_1.jpg' alt='error'/>
           <Text align='left'>We love travelling because our planet is vivid, variegated and beautiful. The theme of World Tourism Day this year is Rethinking Tourism. We must step up now to bring about impactful and sustainable change. </Text>
           </Box>
            
-          <HStack  width='80%' margin='auto' marginTop='2cm' spacing={1}>
+          <HStack  width='80%' margin='auto' margintop='2cm' spacing={1}>
              <Stack width='320px' height='450px' spacing={0}>
                <Image  height='5cm'  width='7cm' borderRadius='2xl' src='https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1664366571_tent_1.jpg' alt='image'/>
             
@@ -115,10 +112,10 @@ const Home=()=>{
 
           </Stack>
              </HStack>
-             <Box width='80%' margin='auto' marginTop='-4cm'>
+             <Box width='80%' margin='auto' margintop='-4cm'>
                <Text align='left' fontWeight='medium' fontSize='3xl'>Travel and Learn with Tripoto's mindful Retreats </Text>
              </Box>
-             <HStack width='80%' margin='auto' marginTop='1cm' spacing={8}>
+             <HStack width='80%' margin='auto' margintop='1cm' spacing={8}>
              <Stack maxW='10cm'>
                <Image width='100%' src='https://cdn1.tripoto.com/media/filter/tst/img/2176903/Image/1660316705_image_cover_1.jpg'/>
                <Text align='left' color='teal.500'>PACKAGE</Text>
@@ -192,4 +189,5 @@ const Home=()=>{
     )
 }
 
+ 
 export default Home
