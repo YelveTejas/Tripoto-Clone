@@ -1,6 +1,7 @@
 
 import { Avatar, Badge, Box, Button, Container, Divider, Flex, Grid, GridItem, Heading, HStack, Image, Input, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react"
+import { Footer } from "../parts/Footer";
 
 export const Retreats=()=>{
     return (
@@ -163,7 +164,7 @@ export const Retreats=()=>{
                
              </Stack>
              </HStack>
-
+            <Footer/>
 
 
 
