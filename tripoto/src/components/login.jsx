@@ -18,10 +18,7 @@ export const Login=()=>{
     setErr(false)
     Loginuser({email,password}).then((res)=>{
         setAuth(true)
-       
-        
         setToken(res.data.token)
-
         console.log(res.data.token)
     }).catch((err)=>{
           setLoading(false)

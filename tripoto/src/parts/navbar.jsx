@@ -10,10 +10,12 @@ export const Navbar=()=>{
         <Container maxW='9xl' bg='#00B5D8'>
        <Flex minWidth='max-content' alignItems='center' gap='2' color='white'>
   <Box p='2'>
+    <Link to='/'>
     <HStack spacing={4}>
     <Image boxSize='50px' src='https://play-lh.googleusercontent.com/P6IAUnZ_W081-DmopltYHl9VaKg6T791mEweKns8mQMUOxySEniRgSGUFWBl82GSx-M=w240-h480-rw' alt='abd'/>
     <Text as='b' fontSize='2xl' color='black'>Tripoto</Text>
     </HStack>
+    </Link>
     
   </Box>
   <Spacer />
