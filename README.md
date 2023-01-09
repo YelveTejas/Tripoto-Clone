@@ -7,11 +7,11 @@
 <h2>Tech Stack</h2>
 <div>
   <ul>
-    <li><h3> React</h3></li>
-     <li><h3>Redux</h3></li>
-     <li><h3> React-Router-Dom</h3></li>
-     <li><h3>Chakra UI</h3></li>
-    <li><h3>json-server</h3></li>
+    <li> React</li>
+     <li>Redux</li>
+     <li>React-Router-Dom</li>
+     <li>Chakra UI</li>
+    <li>json-server</li>
   </ul>
 </div>
 <h2>Features</h2>
@@ -23,4 +23,4 @@
      <li>Dynaminc Routing</li>
     
   </ul>
-  <h4>It was an Individual Project</h4>
+  <h3>It was an Individual Project</h3>
