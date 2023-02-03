@@ -2,7 +2,7 @@
 <h1>Tripoto Clone</h1>
 <P>Tripoto is one of the largest communities of Travelers in the world. We are crowd-sourcing amazing travel itineraries from around the world. Tripoto allows travelers to share their travel stories and discover amazing itineraries by real travelers.</P>
 
-<h3>To Visit my website   <a href='https://jolly-parfait-7a8c01.netlify.app/'>Click here</a></h3>
+<h3>To Visit my website   <a href='https://fabulous-cobbler-459f32.netlify.app/'>Click here</a></h3>
 
 <h2>Tech Stack</h2>
 <div>
@@ -19,6 +19,7 @@
     <li>Login</li>
      <li>React-Carousel</li>
      <li>Filtering</li>
+     <li>Authentication</li>
      <li>Responsive</li>
      <li>Dynaminc Routing</li>
     
