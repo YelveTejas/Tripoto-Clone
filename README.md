@@ -1,6 +1,6 @@
 
 <h1>Tripoto Clone</h1>
-<P>Tripoto is one of the largest communities of Travelers in the world. We are crowd-sourcing amazing travel itineraries from around the world. Tripoto allows travelers to share their travel stories and discover amazing itineraries by real travelers.</P>
+<P>Its an Clone of tripto travel website were you can book yout journey.</P>
 
 <h3>To Visit my website   <a href='https://fabulous-cobbler-459f32.netlify.app/'>Click here</a></h3>
 
